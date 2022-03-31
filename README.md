@@ -1,6 +1,7 @@
 # MonkeyDev_Xcode12
-MonkeyDev 支持Xcode 12安装
 
+MonkeyDev 支持Xcode 12安装  
+修复Xcode12 MacOSX Package Types.xcspec not found报错
 
 ```
 xlsn0w ~ % cd MonkeyDev/bin
