@@ -47,3 +47,8 @@ xlsn0w bin %
 ~ % cd /Users/apple/libstdc- 
 ~ % sudo sh install-xcode_11+.sh
 
+# “error: Signing for “xlsn0wDylib” requires a development team. Select a development team in the Signing & Capabilities editor. ”
+
+在Xcode中 选中Dylib对应的target (in target ‘xlsn0wDylib’)
+点击Build Settings 中
+添加"CODE_SIGNING_ALLOWED = NO" 关闭对Dylib的Code签名
