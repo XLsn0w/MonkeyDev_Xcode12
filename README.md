@@ -39,7 +39,7 @@ xlsn0w bin %
 
 在Xcode中 选中Dylib对应的target (in target ‘xlsn0wDylib’)
 
-点击Build Settings 中
+点击Build Settings 中  在User-Defined (用户自定义那一栏)
 
 添加"CODE_SIGNING_ALLOWED = NO" 关闭对Dylib的Code签名
 
